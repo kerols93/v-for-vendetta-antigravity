@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Antigravity — V for Vendetta</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      <span>GOOGLE ANTIGRAVITY / V FOR VENDETTA</span>
+    </div>
+    <div class="topbar-controls">
+      <button class="lang-pill" id="speaker-lang-pill" title="اضغط لترجمة السلايد عربي / Toggle Arabic">AR</button>
+      <button class="icon-btn" id="notes-btn" title="Speaker Notes (N)">Notes (N)</button>
+      <button class="icon-btn" id="overview-btn" title="All Slides (G)">Slides (G)</button>
+      <button class="icon-btn" id="fullscreen-btn" title="Fullscreen (F)">Fullscreen (F)</button>
+    </div>
+  </header>
+
+  <div class="progress-track">
+    <div class="progress-fill" id="progress-fill"></div>
+  </div>
+
+  <main class="deck" id="deck">
+    <!-- SLIDE 1 -->
+    <section class="slide active" data-lang="AR" data-title="Group Introduction">
+      <div class="hero-split anim-item">
+        <div class="poster-frame">
+          <img src="assets/vendetta-poster.jpg" alt="V for Vendetta Antigravity AI Poster" />
+        </div>
+        <div style="display:flex;flex-direction:column;justify-content:center;gap:14px;">
+          <div class="slide-header" style="margin-bottom:0;">
+            <h1 class="slide-title" data-t="s1_title">Group Name: V for Vendetta</h1>
+            <p class="slide-sub-en" data-t="s1_sub">Google Antigravity: from a prompt to a verified change</p>
+          </div>
+          <div class="card">
+            <h3 data-t="s1_team">Team</h3>
+            <div class="team-grid">
+              <div class="team-chip">Abram William</div>
+              <div class="team-chip">Kerols Hany</div>
+              <div class="team-chip">Beshoy Maged</div>
+              <div class="team-chip">Peter Reda</div>
+              <div class="team-chip">Abdelrahman Nasser</div>
+              <div class="team-chip">Mina Arsanios</div>
+              <div class="team-chip">Makary Younan</div>
+            </div>
+          </div>
+          <div class="card accent">
+            <h3 data-t="s1_today">Today</h3>
+            <p style="font-size:1.05rem;font-weight:700;color:#fff;" data-t="s1_flow">
+              Install &rarr; Sign in &rarr; Plan &rarr; Build &rarr; Test &rarr; Review
+            </p>
+            <p class="muted" style="margin-top:6px;" data-t="s1_demo">Live demo project: CS Student Portfolio Website (built &amp; tested by our team)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2 -->
+    <section class="slide" data-lang="AR" data-title="Opening Questions">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s2_title">Building a Project with Google Antigravity, from A to Z</h1>
+        <p class="slide-sub-ar">من الـ prompt لحد تغيير اتراجع واتختبر</p>
+      </div>
+      <div class="grid-2 anim-item">
+        <div class="card">
+          <h3 data-t="s2_q1_t">Question 1</h3>
+          <p class="ar-rtl" style="font-size:1.2rem;font-weight:700;margin-top:12px;">
+            آخر مرة استخدمتوا فيها الذكاء الاصطناعي كانت إمتى؟
+          </p>
+        </div>
+        <div class="card">
+          <h3 data-t="s2_q2_t">Question 2</h3>
+          <p class="ar-rtl" style="font-size:1.2rem;font-weight:700;margin-top:12px;">
+            هل ممكن الذكاء الاصطناعي ياخد مكان المبرمج؟ (هنرجع للسؤال ده في الآخر)
+          </p>
+        </div>
+      </div>
+      <div class="callout anim-item" data-t="s2_main">
+        Main idea: AI saves time, but only when you stay in the loop and check the result.
+      </div>
+    </section>
+
+    <!-- SLIDE 3 -->
+    <section class="slide" data-lang="AR" data-title="The AI Revolution">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s3_title">The AI Revolution: 2017 &rarr; 2022 &rarr; 2025</h1>
+        <p class="slide-sub-ar">الذكاء الاصطناعي بقى جزء عادي من الشغل</p>
+      </div>
+      <div class="grid-2 anim-item">
+        <div class="chart-box">
+          <div class="bar-col">
+            <span class="bar-val">20%</span>
+            <div class="bar-fill" data-height="20"></div>
+            <span class="bar-year">2017</span>
+          </div>
+          <div class="bar-col">
+            <span class="bar-val">50%</span>
+            <div class="bar-fill" data-height="50"></div>
+            <span class="bar-year">2022</span>
+          </div>
+          <div class="bar-col">
+            <span class="bar-val">88%</span>
+            <div class="bar-fill" data-height="88"></div>
+            <span class="bar-year">2025</span>
+          </div>
+        </div>
+        <div class="card accent" style="display:flex;flex-direction:column;justify-content:center;gap:12px;">
+          <h3 data-t="s3_mean_t">What the number means</h3>
+          <p data-t="s3_mean_1">Share of survey respondents whose organization uses AI in at least one business function.</p>
+          <p data-t="s3_mean_2">McKinsey also reports most organizations are still early in scaling AI.</p>
+          <p class="muted" data-t="s3_src">Source: McKinsey, The State of AI (2022 edition for 2017 and 2022; 2025 edition for 2025). The 2019 peak was 58%, so growth was not a straight line.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4 -->
+    <section class="slide" data-lang="EN" data-title="Traditional vs. Antigravity">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s4_title">Traditional Workflow vs. Workflow with Antigravity</h1>
+        <p class="slide-sub-ar">نفس المهام، بس بترتيب مختلف ومراجعة أوضح</p>
+      </div>
+      <table class="compare-table anim-item">
+        <thead>
+          <tr>
+            <th data-t="s4_th1">Task</th>
+            <th data-t="s4_th2">Traditional</th>
+            <th data-t="s4_th3">With Antigravity (still reviewed)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-t="s4_r1_1">Understand the project</td><td data-t="s4_r1_2">Open and read files one by one</td><td data-t="s4_r1_3">Agent explores the project and proposes a plan</td></tr>
+          <tr><td data-t="s4_r2_1">Plan the work</td><td data-t="s4_r2_2">Notes and guesses</td><td data-t="s4_r2_3">Implementation Plan to review and comment on first</td></tr>
+          <tr><td data-t="s4_r3_1">Write code</td><td data-t="s4_r3_2">Type it, or copy code from a chat</td><td data-t="s4_r3_3">Agent edits files inside the project</td></tr>
+          <tr><td data-t="s4_r4_1">Test the app</td><td data-t="s4_r4_2">Click through manually every time</td><td data-t="s4_r4_3">Agent runs the same browser steps again</td></tr>
+          <tr><td data-t="s4_r5_1">Review changes</td><td data-t="s4_r5_2">Changes scattered across files</td><td data-t="s4_r5_3">Diff review file by file, plus a Walkthrough</td></tr>
+          <tr><td data-t="s4_r6_1">Repeated setup</td><td data-t="s4_r6_2">Re-explain conventions each time</td><td data-t="s4_r6_3">Write them once as Rules and Skills</td></tr>
+        </tbody>
+      </table>
+      <div class="callout anim-item" data-t="s4_call">
+        The agent reduces repetitive work. The review and the decisions stay with us.
+      </div>
+    </section>
+
+    <!-- SLIDE 5 -->
+    <section class="slide" data-lang="EN" data-title="Why Antigravity?">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s5_title">Why Antigravity? More than a chatbot</h1>
+        <p class="slide-sub-ar">agent جوه بيئة تطوير: يخطط وينفذ ويختبر</p>
+      </div>
+      <div class="grid-4 anim-item">
+        <div class="card">
+          <h3>MCP</h3>
+          <p data-t="s5_c1">Connects the agent to external tools and data. Docs examples: database schemas, deployment logs, Linear, Notion, GitHub.</p>
+        </div>
+        <div class="card">
+          <h3>Rules</h3>
+          <p data-t="s5_c2">Fixed constraints. Example: use semantic HTML, never put secrets in frontend code.</p>
+        </div>
+        <div class="card">
+          <h3>Skills</h3>
+          <p data-t="s5_c3">Reusable procedures. Example: a UI review checklist in a SKILL.md file.</p>
+        </div>
+        <div class="card">
+          <h3>Subagents</h3>
+          <p data-t="s5_c4">Split work such as research, builds or test runs. Each starts with a clean context.</p>
+        </div>
+      </div>
+      <div class="callout anim-item" data-t="s5_call">
+        Beginner setup: Antigravity App &bull; Git for a baseline commit &bull; personal Google account (18+)
+      </div>
+    </section>
+
+    <!-- SLIDE 6 -->
+    <section class="slide" data-lang="EN" data-title="Connect MCP in 5 Steps">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s6_title">Connect a tool in 5 steps</h1>
+        <p class="slide-sub-ar">وازاي نوصّل أداة خارجية؟ (MCP في الـ App)</p>
+      </div>
+      <div class="grid-2 anim-item">
+        <div class="card" style="display:flex;flex-direction:column;gap:10px;">
+          <div><span class="step-num">1</span> <span data-t="s6_1">Open Customizations in the sidebar, then MCP Servers</span></div>
+          <div><span class="step-num">2</span> <span data-t="s6_2">Click Add MCP Server (+)</span></div>
+          <div><span class="step-num">3</span> <span data-t="s6_3">Pick a server and click Add</span></div>
+          <div><span class="step-num">4</span> <span data-t="s6_4">Describe the task to the agent</span></div>
+          <div><span class="step-num">5</span> <span data-t="s6_5">Review permissions and approve important actions</span></div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <div class="card">
+            <h3 data-t="s6_ex_t">Example prompt</h3>
+            <p class="prompt-box" data-t="s6_ex_b">Check the latest deployment logs, explain why the build failed, propose a fix, and wait for my approval.</p>
+          </div>
+          <div class="card accent">
+            <h3 data-t="s6_warn_t">Careful</h3>
+            <p data-t="s6_warn_b">An MCP server can run actions, not only read data. Check its source and permissions. No automatic Google Sheets link: we must define and authorize it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7 -->
+    <section class="slide" data-lang="EN" data-title="What Can We Do?">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s7_title">What can we do with Antigravity?</h1>
+        <p class="slide-sub-ar">كل مرحلة في مشروع صغير تقريباً</p>
+      </div>
+      <div class="grid-3 anim-item">
+        <div class="card"><h3 data-t="s7_1t">Clarify</h3><p data-t="s7_1b">Turn an idea into clear requirements</p></div>
+        <div class="card"><h3 data-t="s7_2t">Plan</h3><p data-t="s7_2b">Get an Implementation Plan to review</p></div>
+        <div class="card"><h3 data-t="s7_3t">Build</h3><p data-t="s7_3b">Edit code across several files</p></div>
+        <div class="card"><h3 data-t="s7_4t">Run</h3><p data-t="s7_4b">Terminal commands within permissions</p></div>
+        <div class="card"><h3 data-t="s7_5t">Test</h3><p data-t="s7_5b">Check the running app in a browser</p></div>
+        <div class="card"><h3 data-t="s7_6t">Review</h3><p data-t="s7_6b">Read diffs and a Walkthrough</p></div>
+      </div>
+      <div class="callout anim-item" data-t="s7_call">
+        We set the goal, approve the access and check the output.
+      </div>
+    </section>
+
+    <!-- SLIDE 8 -->
+    <section class="slide" data-lang="AR" data-title="The 10-Step Roadmap">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s8_title">The Roadmap: Build a Project in 10 Steps</h1>
+        <p class="slide-sub-ar">مثال: Student Portfolio (موقع شخصي لطالب حاسبات)</p>
+      </div>
+      <div class="roadmap-grid anim-item">
+        <div class="card"><span class="step-num">1</span><h3 data-t="s8_1">Download</h3></div>
+        <div class="card"><span class="step-num">2</span><h3 data-t="s8_2">Sign in</h3></div>
+        <div class="card"><span class="step-num">3</span><h3 data-t="s8_3">Create a project</h3></div>
+        <div class="card"><span class="step-num">4</span><h3 data-t="s8_4">Requirements</h3></div>
+        <div class="card"><span class="step-num">5</span><h3 data-t="s8_5">Plan</h3></div>
+        <div class="card"><span class="step-num">6</span><h3 data-t="s8_6">Build</h3></div>
+        <div class="card"><span class="step-num">7</span><h3 data-t="s8_7">Browser test</h3></div>
+        <div class="card"><span class="step-num">8</span><h3 data-t="s8_8">Review</h3></div>
+        <div class="card"><span class="step-num">9</span><h3 data-t="s8_9">Customize &amp; limits</h3></div>
+        <div class="card"><span class="step-num">10</span><h3 data-t="s8_10">Cost &amp; quotas</h3></div>
+      </div>
+      <div class="callout anim-item" data-t="s8_call">
+        Real project: CS Student Portfolio (Hero, Skills Filter, Projects, Copy Email) — built &amp; tested with Antigravity.
+      </div>
+    </section>
+
+    <!-- SLIDE 9 -->
+    <section class="slide" data-lang="AR" data-title="Steps 1-3: Setup">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s9_title">Steps 1–3: Download, Sign in, Project</h1>
+        <p class="slide-sub-ar">الأساس قبل أول prompt</p>
+      </div>
+      <div class="grid-3 anim-item">
+        <div class="card">
+          <span class="step-num">1</span>
+          <h3 data-t="s9_1t">Download</h3>
+          <p data-t="s9_1b">Official page, Antigravity App. Windows x64 or ARM64. Windows 10 64-bit or later; macOS and Linux listed too.</p>
+        </div>
+        <div class="card">
+          <span class="step-num">2</span>
+          <h3 data-t="s9_2t">Sign in</h3>
+          <p data-t="s9_2b">Sign in opens Google authentication in the browser. 18+; Egypt is listed. School or work accounts are managed and may differ.</p>
+        </div>
+        <div class="card">
+          <span class="step-num">3</span>
+          <h3 data-t="s9_3t">Create a project</h3>
+          <p data-t="s9_3b">New Project, Add Folder, Create. Local mode or New worktree. A worktree is not a backup or a sandbox.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10 -->
+    <section class="slide" data-lang="AR" data-title="Steps 4-5: Requirements & Plan">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s10_title">Steps 4–5: Requirements and Plan</h1>
+        <p class="slide-sub-ar">اكتب المطلوب، وراجع الخطة قبل أي تعديل</p>
+      </div>
+      <div class="grid-2 anim-item">
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div class="card">
+            <h3 data-t="s10_1t">Step 4: Requirements</h3>
+            <p data-t="s10_1b">Build: CS Student Portfolio. Constrain: HTML, CSS, JS. Verify: Skills tabs work, Copy Email shows feedback, responsive at 390px.</p>
+          </div>
+          <div class="card">
+            <h3 data-t="s10_2t">Step 5: /plan, then review</h3>
+            <p data-t="s10_2b">Check scope, files and test plan. Leave comments, then approve.</p>
+          </div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="videos/demo-plan.mp4" type="video/mp4" />
+          </video>
+          <div class="video-actions">
+            <span class="muted" data-t="s10_vid">Video 1: Planning &amp; Building inside Antigravity</span>
+            <a class="btn-launch" href="portfolio/index.html" target="_blank" data-t="launch_btn">Open Live Portfolio &nearr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 11 -->
+    <section class="slide" data-lang="AR" data-title="Step 6: Build with Context">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s11_title">Step 6: Build with the Right Context</h1>
+        <p class="slide-sub-ar">الـ prompt الجيد يحدد الهدف والحدود</p>
+      </div>
+      <div class="grid-3 anim-item">
+        <div class="card">
+          <h3 data-t="s11_1t">Give context</h3>
+          <p data-t="s11_1b">Mention files or folders with @. State the expected behavior and the done condition.</p>
+        </div>
+        <div class="card">
+          <h3 data-t="s11_2t">Watch what runs</h3>
+          <p data-t="s11_2b">The agent edits files and runs terminal commands within its permissions. Understand what you approve.</p>
+        </div>
+        <div class="card">
+          <h3 data-t="s11_3t">Steer, don't restart</h3>
+          <p data-t="s11_3b">Point to one failing behavior and ask for a focused fix. Then re-run the same test.</p>
+        </div>
+      </div>
+      <div class="callout anim-item" data-t="s11_call">
+        Example feedback: "The Copy Email button doesn't show a confirmation message after clicking."
+      </div>
+    </section>
+
+    <!-- SLIDE 12 -->
+    <section class="slide" data-lang="AR" data-title="Step 7: Test in the Browser">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s12_title">Step 7: Test in the Browser</h1>
+        <p class="slide-sub-ar">الشكل وحده مش دليل إن التطبيق صحيح</p>
+      </div>
+      <div class="flow-arrows anim-item">
+        <div class="flow-step" data-t="s12_f1">1. Open</div>
+        <div class="flow-step" data-t="s12_f2">2. Interact</div>
+        <div class="flow-step" data-t="s12_f3">3. Inspect</div>
+        <div class="flow-step" data-t="s12_f4">4. Fix</div>
+        <div class="flow-step" data-t="s12_f5">5. Re-test</div>
+      </div>
+      <div class="grid-2 anim-item">
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <div class="card"><h3 data-t="s12_1t">Ask for real interaction</h3><p data-t="s12_1b">Click Skills tabs, copy email, scroll projects, and resize to mobile.</p></div>
+          <div class="card"><h3 data-t="s12_2t">Inspect more than pixels</h3><p data-t="s12_2b">Console errors, failed network requests, mobile-width layout (390px).</p></div>
+          <div class="card"><h3 data-t="s12_3t">Know your setup</h3><p data-t="s12_3b">Built-in browser: personal accounts, newer App versions. Other surfaces may need Chrome.</p></div>
+        </div>
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="videos/demo-portfolio.mp4" type="video/mp4" />
+          </video>
+          <div class="video-actions">
+            <span class="muted" data-t="s12_vid">Video 2: Antigravity Browser Test (Live Portfolio)</span>
+            <a class="btn-launch" href="portfolio/index.html" target="_blank" data-t="launch_btn2">Launch Portfolio &nearr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 13 -->
+    <section class="slide" data-lang="AR" data-title="Step 8: Review & Evidence">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s13_title">Step 8: Review Changes and Evidence</h1>
+        <p class="slide-sub-ar">راجع الـ diff قبل ما تعتمد النتيجة</p>
+      </div>
+      <div class="grid-2 anim-item">
+        <div class="prompt-box">
+          <div class="prompt-tag">Review &rarr; student-portfolio (+3 files)</div>
+          <br/>
+          <span style="color:#38bdf8;">+ index.html</span> (Hero profile, Skills tabs, Projects, Contact)<br/>
+          <span style="color:#38bdf8;">+ style.css</span> (Responsive 390px layout, Cyber Cyan/Navy)<br/>
+          <span style="color:#38bdf8;">+ app.js</span> (Category filter + Copy Email toast feedback)<br/><br/>
+          <div class="prompt-tag">Walkthrough Validation</div>
+          &#10003; Filter Skills (All / Web / CS Core)<br/>
+          &#10003; Copy Email feedback works<br/>
+          &#10003; Mobile 390px &amp; 0 console errors
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div class="card">
+            <h3 data-t="s13_1t">File-by-File Diff</h3>
+            <p data-t="s13_1b">Compare Uncommitted, Branch and Agent Edits. Comment on a line. A test that ran is not the same as a test that was recommended.</p>
+          </div>
+          <div class="card accent">
+            <h3 data-t="s13_2t">Careful</h3>
+            <p data-t="s13_2b">Discard unstaged changes can delete untracked files immediately.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 14 -->
+    <section class="slide" data-lang="AR" data-title="Steps 9-10: Limits & Cost">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s14_title">Steps 9–10: Customize, Set Limits, Check Cost</h1>
+        <p class="slide-sub-ar">القوة محتاجة حدود، والمجاني مش unlimited</p>
+      </div>
+      <div class="grid-3 anim-item">
+        <div class="card">
+          <h3 data-t="s14_1t">9. Customize</h3>
+          <p data-t="s14_1b">Rules set constraints. Skills hold repeatable procedures. MCP connects tools. Start with a demo folder and the least access needed.</p>
+        </div>
+        <div class="card">
+          <h3 data-t="s14_2t">9. Protect data</h3>
+          <p data-t="s14_2b">No passwords, client secrets or production data. Personal-account terms: interactions may be used to improve products. Enable Telemetry is under Account settings.</p>
+        </div>
+        <div class="card">
+          <h3 data-t="s14_3t">10. Cost and quotas</h3>
+          <p data-t="s14_3b">$0 Individual plan with a weekly baseline quota. Pro and Ultra: higher quotas. Pricing lists legacy models removed on 30 Nov 2026.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 15 -->
+    <section class="slide" data-lang="EN" data-title="The Reality Check">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s15_title">The Reality Check</h1>
+        <p class="slide-sub-ar">قوي، بس مش مثالي</p>
+      </div>
+      <div class="grid-5 anim-item">
+        <div class="card"><h3 data-t="s15_1t">It can be wrong</h3><p data-t="s15_1b">Verify the code, the tests and the claims.</p></div>
+        <div class="card"><h3 data-t="s15_2t">Human judgment</h3><p data-t="s15_2b">What to build and what to ship is our call.</p></div>
+        <div class="card"><h3 data-t="s15_3t">Protect data</h3><p data-t="s15_3b">No secrets or private data in prompts or demos.</p></div>
+        <div class="card"><h3 data-t="s15_4t">Limits apply</h3><p data-t="s15_4b">Quotas, paid features and approvals exist.</p></div>
+        <div class="card"><h3 data-t="s15_5t">No guarantee</h3><p data-t="s15_5b">A passing test is not production readiness.</p></div>
+      </div>
+      <div class="callout ar-rtl anim-item">
+        الذكاء الاصطناعي مش هيحل محلك لوحده، لكن المبرمج اللي بيستخدمه صح وبيراجع شغله هيبقى عنده قدرات أكبر.
+      </div>
+    </section>
+
+    <!-- SLIDE 16 -->
+    <section class="slide" data-lang="EN" data-title="Future of Development">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s16_title">The Future of Development Is Different</h1>
+        <p class="slide-sub-ar">ابدأ بمشروع صغير النهارده</p>
+      </div>
+      <div class="grid-2 anim-item">
+        <div class="card">
+          <h3 data-t="s16_next_t">Your next step</h3>
+          <ol style="padding-left:20px;line-height:1.8;">
+            <li data-t="s16_1">Download the App from the official page</li>
+            <li data-t="s16_2">Create a demo folder</li>
+            <li data-t="s16_3">Write clear requirements</li>
+            <li data-t="s16_4">Ask for a plan and read it</li>
+            <li data-t="s16_5">Test in the browser</li>
+            <li data-t="s16_6">Review the diff, then improve</li>
+          </ol>
+        </div>
+        <div class="card accent" style="display:flex;align-items:center;">
+          <p style="font-size:1.25rem;font-weight:700;line-height:1.5;" data-t="s16_quote">
+            &ldquo;The future doesn&rsquo;t belong to people who simply use technology. It belongs to people who know how to build with it.&rdquo;
+          </p>
+        </div>
+      </div>
+      <div class="callout ar-rtl anim-item">
+        ما تستناش لحد ما تبقى محترف. ابدأ بمشروع صغير وابني خطوة بخطوة.
+      </div>
+    </section>
+
+    <!-- SLIDE 17 -->
+    <section class="slide" data-lang="AR" data-title="Thank You & Quiz">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s17_title">THANK YOU FOR YOUR TIME — Questions?</h1>
+        <p class="slide-sub-en" data-t="s17_sub">Plan. Build. Test. Review. &bull; Interactive 5-Question Quiz</p>
+      </div>
+      <div class="quiz-box anim-item" id="quiz-box">
+        <div class="quiz-header">
+          <span class="lang-pill" id="quiz-progress">Question 1 of 5</span>
+          <span class="muted" id="quiz-score">Score: 0 / 5</span>
+        </div>
+        <div class="quiz-q" id="quiz-question">Loading...</div>
+        <div class="quiz-options" id="quiz-options"></div>
+        <div class="quiz-feedback" id="quiz-feedback"></div>
+        <div style="margin-top:12px;display:flex;gap:10px;">
+          <button class="icon-btn" id="quiz-next" data-t="quiz_next">Next Question &rarr;</button>
+          <button class="icon-btn" id="quiz-reset" data-t="quiz_reset">Restart Quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 18 (NEW GTA MISSION PASSED VIDEO SLIDE) -->
+    <section class="slide" data-lang="AR" data-title="Mission Passed — V for Vendetta">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s18_title">MISSION PASSED! + RESPECT</h1>
+        <p class="slide-sub-ar" data-t="s18_sub">فريق V for Vendetta (7 أفراد) — المهمة اكتملت بنجاح</p>
+      </div>
+      <div class="video-card hero-video anim-item">
+        <video controls preload="metadata">
+          <source src="videos/gta-mission-passed.mp4" type="video/mp4" />
+        </video>
+        <div class="video-actions">
+          <span class="muted" data-t="s18_cap">GTA-Style Finale • 7 Squad Members + Victory Audio (editable in assets/gta-squad.jpg)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 19 -->
+    <section class="slide" data-lang="EN" data-title="Sources">
+      <div class="slide-header anim-item">
+        <h1 class="slide-title" data-t="s19_title">Sources</h1>
+        <p class="slide-sub-ar">المراجع الرسمية (راجعناها يوم 23 نوفمبر 2026)</p>
+      </div>
+      <div class="card anim-item">
+        <div class="sources-grid">
+          <div><strong>[1]</strong> Introducing Google Antigravity — antigravity.google/blog/introducing-google-antigravity/</div>
+          <div><strong>[14]</strong> Walkthrough — antigravity.google/docs/walkthrough/</div>
+          <div><strong>[2]</strong> Get started — antigravity.google/docs/getting-started/</div>
+          <div><strong>[15]</strong> Artifacts — antigravity.google/docs/artifacts/</div>
+          <div><strong>[3]</strong> Antigravity IDE — antigravity.google/product/antigravity-ide/</div>
+          <div><strong>[16]</strong> Rules — antigravity.google/docs/rules/</div>
+          <div><strong>[4]</strong> Download — antigravity.google/download</div>
+          <div><strong>[17]</strong> Agent skills — antigravity.google/docs/skills/</div>
+          <div><strong>[5]</strong> Authenticate — antigravity.google/docs/install/</div>
+          <div><strong>[18]</strong> Model Context Protocol — antigravity.google/docs/mcp/</div>
+          <div><strong>[6]</strong> FAQ &amp; availability — antigravity.google/docs/faq/</div>
+          <div><strong>[19]</strong> Slash commands — antigravity.google/docs/slash-commands/</div>
+          <div><strong>[7]</strong> Google Workspace — antigravity.google/docs/workspace/</div>
+          <div><strong>[20]</strong> Terms of Service — antigravity.google/terms/</div>
+          <div><strong>[8]</strong> Projects — antigravity.google/docs/projects/</div>
+          <div><strong>[21]</strong> Settings — antigravity.google/docs/settings/</div>
+          <div><strong>[9]</strong> Plan command — antigravity.google/docs/plan/</div>
+          <div><strong>[22]</strong> Pricing — antigravity.google/pricing/</div>
+          <div><strong>[10]</strong> Implementation plan — antigravity.google/docs/implementation-plan/</div>
+          <div><strong>[23]</strong> Plans — antigravity.google/docs/plans/</div>
+          <div><strong>[11]</strong> Feature overview — antigravity.google/docs/features/</div>
+          <div><strong>[24]</strong> McKinsey 2025 — mckinsey.com/.../the-state-of-ai-2025</div>
+          <div><strong>[12]</strong> Browser use — antigravity.google/docs/browser/</div>
+          <div><strong>[25]</strong> McKinsey 2022 — mckinsey.com/.../the-state-of-ai-in-2022...pdf</div>
+          <div><strong>[13]</strong> Review changes — antigravity.google/docs/review-changes/</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="notes-drawer" id="notes-drawer" hidden>
+    <h4 id="notes-speaker">Speaker Notes</h4>
+    <p id="notes-text"></p>
+  </aside>
+
+  <div class="overview-modal" id="overview-modal" hidden>
+    <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;">
+      <h2>All Slides</h2>
+      <button class="icon-btn" id="close-overview">Close (Esc)</button>
+    </div>
+    <div class="overview-grid" id="overview-grid"></div>
+  </div>
+
+  <footer class="bottombar">
+    <span>Official docs &bull; checked 23 Nov 2026</span>
+    <div class="nav-btns">
+      <button class="icon-btn" id="prev-btn">&larr; Prev</button>
+      <span id="slide-counter">01 / 19</span>
+      <button class="icon-btn" id="next-btn">Next &rarr;</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

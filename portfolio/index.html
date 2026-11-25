@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio — Built with Antigravity</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <main class="container">
+    <nav class="navbar">
+      <div class="logo">V FOR VENDETTA <span>• CS PORTFOLIO</span></div>
+      <div class="nav-links">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero Profile -->
+    <section class="hero card">
+      <div class="avatar">CS</div>
+      <div class="hero-info">
+        <div class="status-pill">1st-Year Computer Science Student</div>
+        <h1>Hi, I&rsquo;m <span class="cyan">Kerols Hany</span></h1>
+        <p class="typing-line" id="typing-line">Building the web with Google Antigravity</p>
+        <p class="bio">
+          First-year CS student passionate about turning ideas into clean, interactive web apps.
+          Member of <strong>Group V for Vendetta</strong>.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <button type="button" class="btn-outline" id="copy-email-btn">Copy Email</button>
+          <span class="copy-toast" id="copy-toast" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Skills Filter -->
+    <section id="skills" class="card">
+      <div class="section-head">
+        <h2>Skills &amp; Tech Stack</h2>
+        <div class="tabs" role="tablist">
+          <button class="tab-btn active" data-cat="all">All</button>
+          <button class="tab-btn" data-cat="web">Web</button>
+          <button class="tab-btn" data-cat="cs">CS Core</button>
+        </div>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="card">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <span class="muted">Tested &amp; Verified in Browser</span>
+      </div>
+      <div class="projects-grid">
+        <article class="project-item">
+          <div class="proj-tag">HTML • CSS • JS</div>
+          <h3>Interactive Web Presentation</h3>
+          <p>A 19-slide Cyber Cyan presentation with live AR/EN translation and embedded demos.</p>
+        </article>
+        <article class="project-item">
+          <div class="proj-tag">Antigravity AI</div>
+          <h3>Student Portfolio Site</h3>
+          <p>Responsive personal portfolio planned, built, and browser-tested step by step.</p>
+        </article>
+        <article class="project-item">
+          <div class="proj-tag">C++ / Python</div>
+          <h3>1st-Year CS Labs</h3>
+          <p>Problem-solving exercises, algorithms, and clean code fundamentals.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Card -->
+    <section id="contact" class="card contact-card">
+      <div>
+        <h2>Let&rsquo;s Connect</h2>
+        <p class="muted">Always open to study groups, university hackathons, and coding projects.</p>
+      </div>
+      <div class="contact-right">
+        <code id="email-text">v.for.vendetta.cs@university.edu</code>
+        <button type="button" class="btn-primary" id="contact-copy-btn">Copy</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
